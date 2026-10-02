@@ -38,11 +38,26 @@ export default function MapView({ cameras, onOpenModal }) {
       iconSize: [14, 14]
     });
 
+    const offlineIcon = L.divIcon({
+      className: 'custom-map-marker',
+      html: `<div style="background-color: #64748b; width: 10px; height: 10px; border-radius: 50%; border: 2px solid #94a3b8; box-shadow: 0 0 6px #475569;"></div>`,
+      iconSize: [10, 10]
+    });
+
     cameras.forEach((cam) => {
       if (!cam.lat || !cam.lng) return;
       const isWater = cam.category === 'water' || cam.tags.includes('เฝ้าระวังน้ำท่วม');
+      const isOffline = cam.status === 'offline';
+      
+      let markerIcon = greenIcon;
+      if (isOffline) {
+        markerIcon = offlineIcon;
+      } else if (isWater) {
+        markerIcon = waterIcon;
+      }
+
       const marker = L.marker([cam.lat, cam.lng], {
-        icon: isWater ? waterIcon : greenIcon
+        icon: markerIcon
       });
 
       marker.bindPopup(`
@@ -74,6 +89,23 @@ export default function MapView({ cameras, onOpenModal }) {
           const hls = new Hls({ debug: false, lowLatencyMode: true });
           hls.loadSource(cam.streamUrl);
           hls.attachMedia(vid);
+
+          hls.on(Hls.Events.ERROR, (event, data) => {
+            if (data.fatal || data.response?.code === 404) {
+              hls.destroy();
+              activePopupHlsRef.current = null;
+              const container = vid.parentElement;
+              if (container) {
+                container.innerHTML = `
+                  <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;color:#cbd5e1;font-size:0.75rem;padding:8px;text-align:center;background:#0f172a;">
+                    <span style="color:#f59e0b;font-weight:600;margin-bottom:2px;">⚠️ กล้องออฟไลน์</span>
+                    <span style="color:#64748b;font-size:0.7rem;">ต้นทางไม่มีสัญญาณ (404)</span>
+                  </div>
+                `;
+              }
+            }
+          });
+
           activePopupHlsRef.current = hls;
         }
       });

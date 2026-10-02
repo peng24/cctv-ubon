@@ -49,6 +49,8 @@ export default function CameraCard({ camera, isFavorite, onToggleFavorite, onOpe
     setIsLoading(true);
     setHasError(false);
 
+    let retryCount = 0;
+
     if (Hls.isSupported()) {
       const hls = new Hls({
         debug: false,
@@ -63,14 +65,36 @@ export default function CameraCard({ camera, isFavorite, onToggleFavorite, onOpe
 
       hls.on(Hls.Events.MANIFEST_PARSED, () => {
         setIsLoading(false);
+        setHasError(false);
         video.play().catch(() => {});
       });
 
       hls.on(Hls.Events.ERROR, (event, data) => {
+        // Immediate check for 404 or manifest not found
+        const is404 = data.response?.code === 404 || 
+                      data.details === Hls.ErrorDetails.MANIFEST_LOAD_ERROR || 
+                      data.details === Hls.ErrorDetails.MANIFEST_LOAD_TIMEOUT;
+
+        if (is404) {
+          hls.destroy();
+          hlsRef.current = null;
+          setIsLoading(false);
+          setHasError('offline');
+          return;
+        }
+
         if (data.fatal) {
           switch (data.type) {
             case Hls.ErrorTypes.NETWORK_ERROR:
-              hls.startLoad();
+              retryCount += 1;
+              if (retryCount <= 1) {
+                hls.startLoad();
+              } else {
+                hls.destroy();
+                hlsRef.current = null;
+                setIsLoading(false);
+                setHasError('offline');
+              }
               break;
             case Hls.ErrorTypes.MEDIA_ERROR:
               hls.recoverMediaError();
@@ -79,7 +103,7 @@ export default function CameraCard({ camera, isFavorite, onToggleFavorite, onOpe
               hls.destroy();
               hlsRef.current = null;
               setIsLoading(false);
-              setHasError(true);
+              setHasError('error');
               break;
           }
         }
@@ -88,11 +112,24 @@ export default function CameraCard({ camera, isFavorite, onToggleFavorite, onOpe
       hlsRef.current = hls;
     } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
       // Native Safari
-      video.src = camera.streamUrl;
-      video.addEventListener('loadedmetadata', () => {
+      const handleMetadata = () => {
         setIsLoading(false);
+        setHasError(false);
         video.play().catch(() => {});
-      });
+      };
+      const handleError = () => {
+        setIsLoading(false);
+        setHasError('offline');
+      };
+
+      video.addEventListener('loadedmetadata', handleMetadata);
+      video.addEventListener('error', handleError);
+      video.src = camera.streamUrl;
+
+      return () => {
+        video.removeEventListener('loadedmetadata', handleMetadata);
+        video.removeEventListener('error', handleError);
+      };
     }
 
     return () => {
@@ -127,11 +164,18 @@ export default function CameraCard({ camera, isFavorite, onToggleFavorite, onOpe
     >
       {/* 16:9 Video Area */}
       <div className="relative w-full aspect-video bg-black overflow-hidden flex items-center justify-center">
-        {/* Live Badge */}
-        <div className="absolute top-2 left-2 z-10 flex items-center gap-1.5 px-2 py-0.5 rounded-md text-[10px] font-semibold tracking-wider bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 backdrop-blur-md">
-          <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
-          LIVE
-        </div>
+        {/* Live or Offline Badge */}
+        {hasError ? (
+          <div className="absolute top-2 left-2 z-10 flex items-center gap-1.5 px-2 py-0.5 rounded-md text-[10px] font-semibold tracking-wider bg-slate-900/90 text-amber-400 border border-amber-500/30 backdrop-blur-md">
+            <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span>
+            OFFLINE
+          </div>
+        ) : (
+          <div className="absolute top-2 left-2 z-10 flex items-center gap-1.5 px-2 py-0.5 rounded-md text-[10px] font-semibold tracking-wider bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 backdrop-blur-md">
+            <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+            LIVE
+          </div>
+        )}
 
         {/* Water Level Badge */}
         {isWater && (
@@ -194,14 +238,19 @@ export default function CameraCard({ camera, isFavorite, onToggleFavorite, onOpe
           </div>
         )}
 
-        {/* Error State */}
+        {/* Error / Offline State */}
         {hasError && (
-          <div className="absolute inset-0 flex flex-col items-center justify-center bg-slate-950/90 text-amber-400 text-xs gap-1.5 p-4 text-center">
+          <div className="absolute inset-0 flex flex-col items-center justify-center bg-slate-950/92 text-slate-300 text-xs gap-1.5 p-4 text-center">
             <AlertTriangle className="w-6 h-6 text-amber-500" />
-            <span className="font-medium">สัญญาณขัดข้องชั่วคราว</span>
+            <span className="font-medium text-amber-300">
+              {hasError === 'offline' ? 'กล้องออฟไลน์ชั่วคราว' : 'สัญญาณขัดข้องชั่วคราว'}
+            </span>
+            <span className="text-[10px] text-slate-500">
+              {hasError === 'offline' ? 'ต้นทางเทศบาลยังไม่เปิดสัญญาณ (404)' : 'กำลังรอเชื่อมต่อใหม่'}
+            </span>
             <button
               onClick={handleReload}
-              className="mt-1 px-2.5 py-1 text-[11px] rounded bg-slate-800 text-slate-300 hover:bg-slate-700 border border-slate-700"
+              className="mt-1 px-2.5 py-1 text-[11px] rounded bg-slate-800 text-slate-300 hover:bg-slate-700 hover:text-white border border-slate-700 transition"
             >
               ลองใหม่อีกครั้ง
             </button>

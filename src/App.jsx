@@ -115,6 +115,7 @@ export default function App() {
     return CAMERAS.filter((cam) => {
       // Category filter
       if (activeCategory === 'fav' && !favorites.has(cam.id)) return false;
+      if (activeCategory === 'online' && cam.status === 'offline') return false;
       if (activeCategory === 'water' && cam.category !== 'water' && !cam.tags.includes('เฝ้าระวังน้ำท่วม')) return false;
       if (activeCategory === 'traffic' && cam.category !== 'traffic') return false;
       if (activeCategory === 'community' && cam.category !== 'community') return false;

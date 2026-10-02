@@ -24,23 +24,50 @@ export default function CameraModal({ camera, isOpen, onClose, isFavorite, onTog
 
       hls.on(Hls.Events.MANIFEST_PARSED, () => {
         setIsLoading(false);
+        setHasError(false);
         video.play().catch(() => {});
       });
 
       hls.on(Hls.Events.ERROR, (event, data) => {
-        if (data.fatal) {
+        const is404 = data.response?.code === 404 || 
+                      data.details === Hls.ErrorDetails.MANIFEST_LOAD_ERROR;
+
+        if (is404) {
+          hls.destroy();
+          hlsRef.current = null;
           setIsLoading(false);
-          setHasError(true);
+          setHasError('offline');
+          return;
+        }
+
+        if (data.fatal) {
+          hls.destroy();
+          hlsRef.current = null;
+          setIsLoading(false);
+          setHasError('error');
         }
       });
 
       hlsRef.current = hls;
     } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-      video.src = camera.streamUrl;
-      video.addEventListener('loadedmetadata', () => {
+      const handleMetadata = () => {
         setIsLoading(false);
+        setHasError(false);
         video.play().catch(() => {});
-      });
+      };
+      const handleError = () => {
+        setIsLoading(false);
+        setHasError('offline');
+      };
+
+      video.addEventListener('loadedmetadata', handleMetadata);
+      video.addEventListener('error', handleError);
+      video.src = camera.streamUrl;
+
+      return () => {
+        video.removeEventListener('loadedmetadata', handleMetadata);
+        video.removeEventListener('error', handleError);
+      };
     }
 
     return () => {
@@ -63,9 +90,20 @@ export default function CameraModal({ camera, isOpen, onClose, isFavorite, onTog
         {/* Header */}
         <div className="px-5 py-3.5 border-b border-slate-800 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <span className="pulse-dot"></span>
+            {hasError ? (
+              <span className="w-2.5 h-2.5 rounded-full bg-amber-400"></span>
+            ) : (
+              <span className="pulse-dot"></span>
+            )}
             <div>
-              <h2 className="text-base font-bold text-white leading-tight">{camera.name}</h2>
+              <div className="flex items-center gap-2">
+                <h2 className="text-base font-bold text-white leading-tight">{camera.name}</h2>
+                {hasError === 'offline' && (
+                  <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-500/20 text-amber-300 border border-amber-500/30">
+                    OFFLINE
+                  </span>
+                )}
+              </div>
               <div className="flex items-center gap-3 mt-1 text-xs text-slate-400">
                 <span className="bg-slate-800 px-2 py-0.5 rounded font-mono text-slate-300">{camera.id}</span>
                 <span className="flex items-center gap-1">
@@ -113,9 +151,16 @@ export default function CameraModal({ camera, isOpen, onClose, isFavorite, onTog
           )}
 
           {hasError && (
-            <div className="absolute inset-0 flex flex-col items-center justify-center bg-slate-950/90 text-amber-400 text-sm gap-2">
-              <AlertTriangle className="w-8 h-8 text-amber-500" />
-              <span>ไม่สามารถเล่นสัญญาณสดของกล้องนี้ได้ในขณะนี้</span>
+            <div className="absolute inset-0 flex flex-col items-center justify-center bg-slate-950/95 text-slate-300 text-sm gap-2.5 p-6 text-center">
+              <AlertTriangle className="w-10 h-10 text-amber-500" />
+              <span className="font-semibold text-amber-300 text-base">
+                {hasError === 'offline' ? 'กล้องนี้ออฟไลน์ชั่วคราว (ไม่มีสัญญาณถ่ายทอดสด)' : 'สัญญาณขัดข้องชั่วคราว'}
+              </span>
+              <span className="text-xs text-slate-400 max-w-md leading-relaxed">
+                {hasError === 'offline'
+                  ? 'เซิร์ฟเวอร์สตรีมมิ่งต้นทางของเทศบาลนครอุบลราชธานี หรือกรมชลประทาน ยังไม่ได้เปิดสัญญาณถ่ายทอดสดกล้องจุดนี้ (HTTP 404 Not Found) ท่านสามารถเลือกชมกล้องจุดใกล้เคียงแทนได้'
+                  : 'ไม่สามารถโหลดสัญญาณภาพได้ กรุณาตรวจสอบการเชื่อมต่ออินเทอร์เน็ตหรือลองใหม่อีกครั้ง'}
+              </span>
             </div>
           )}
         </div>

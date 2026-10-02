@@ -12,7 +12,62 @@
     "lng": 104.858333,
     "streamUrl": "/api/stream/cam0163.stream/playlist.m3u8",
     "source": "เทศบาลนครอุบลราชธานี / กรมชลประทาน",
-    "featured": true
+    "featured": true,
+    "status": "online"
+  },
+  {
+    "id": "cam-108",
+    "name": "ใต้สะพาน 200 ปี (สถานีวัดระดับน้ำ M.7 แม่น้ำมูล)",
+    "category": "water",
+    "tags": [
+      "เฝ้าระวังน้ำท่วม",
+      "ริมแม่น้ำ/แหล่งน้ำ",
+      "จุดสำคัญ",
+      "M.7",
+      "ปภ."
+    ],
+    "lat": 15.22369,
+    "lng": 104.85757,
+    "streamUrl": "/api/stream/cam108.stream/playlist.m3u8",
+    "source": "เทศบาลนครอุบลราชธานี / ฝ่ายป้องกันและบรรเทาสาธารณภัย (ปภ.)",
+    "featured": true,
+    "status": "online"
+  },
+  {
+    "id": "cam-268",
+    "name": "บริเวณหอสูบน้ำ M7 ตัวที่ 1 (สะพานเสรีประชาธิปไตย)",
+    "category": "water",
+    "tags": [
+      "เฝ้าระวังน้ำท่วม",
+      "ริมแม่น้ำ/แหล่งน้ำ",
+      "จุดสำคัญ",
+      "M.7",
+      "ปภ."
+    ],
+    "lat": 15.22375,
+    "lng": 104.8591,
+    "streamUrl": "/api/stream/cam268.stream/playlist.m3u8",
+    "source": "เทศบาลนครอุบลราชธานี / ฝ่ายป้องกันและบรรเทาสาธารณภัย (ปภ.)",
+    "featured": true,
+    "status": "online"
+  },
+  {
+    "id": "cam-269",
+    "name": "บริเวณหอสูบน้ำ M7 ตัวที่ 2 (สะพานเสรีประชาธิปไตย)",
+    "category": "water",
+    "tags": [
+      "เฝ้าระวังน้ำท่วม",
+      "ริมแม่น้ำ/แหล่งน้ำ",
+      "จุดสำคัญ",
+      "M.7",
+      "ปภ."
+    ],
+    "lat": 15.22375,
+    "lng": 104.8591,
+    "streamUrl": "/api/stream/cam269.stream/playlist.m3u8",
+    "source": "เทศบาลนครอุบลราชธานี / ฝ่ายป้องกันและบรรเทาสาธารณภัย (ปภ.)",
+    "featured": true,
+    "status": "online"
   },
   {
     "id": "cam0001",
@@ -24,7 +79,8 @@
     "lat": 15.230278,
     "lng": 104.855278,
     "streamUrl": "/api/stream/cam0001.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0002",
@@ -36,7 +92,8 @@
     "lat": 15.231944,
     "lng": 104.849722,
     "streamUrl": "/api/stream/cam0002.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0003",
@@ -48,7 +105,8 @@
     "lat": 15.231944,
     "lng": 104.85,
     "streamUrl": "/api/stream/cam0003.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0004",
@@ -60,7 +118,8 @@
     "lat": 15.232222,
     "lng": 104.848889,
     "streamUrl": "/api/stream/cam0004.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0005",
@@ -72,7 +131,8 @@
     "lat": 15.2325,
     "lng": 104.846667,
     "streamUrl": "/api/stream/cam0005.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0006",
@@ -84,7 +144,8 @@
     "lat": 15.2325,
     "lng": 104.846667,
     "streamUrl": "/api/stream/cam0006.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0007",
@@ -96,7 +157,8 @@
     "lat": 15.2335,
     "lng": 104.841111,
     "streamUrl": "/api/stream/cam0007.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0008",
@@ -108,7 +170,8 @@
     "lat": 15.234222,
     "lng": 104.836083,
     "streamUrl": "/api/stream/cam0008.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0009",
@@ -120,7 +183,8 @@
     "lat": 15.237778,
     "lng": 104.836389,
     "streamUrl": "/api/stream/cam0009.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0010",
@@ -132,7 +196,8 @@
     "lat": 15.237222,
     "lng": 104.841389,
     "streamUrl": "/api/stream/cam0010.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0011",
@@ -144,7 +209,8 @@
     "lat": 15.236389,
     "lng": 104.846667,
     "streamUrl": "/api/stream/cam0011.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0012",
@@ -156,7 +222,8 @@
     "lat": 15.237944,
     "lng": 104.846917,
     "streamUrl": "/api/stream/cam0012.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0013",
@@ -168,7 +235,8 @@
     "lat": 15.239722,
     "lng": 104.846944,
     "streamUrl": "/api/stream/cam0013.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0014",
@@ -180,7 +248,8 @@
     "lat": 15.243889,
     "lng": 104.847222,
     "streamUrl": "/api/stream/cam0014.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0015",
@@ -193,7 +262,8 @@
     "lat": 15.245833,
     "lng": 104.845833,
     "streamUrl": "/api/stream/cam0015.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0016",
@@ -205,7 +275,8 @@
     "lat": 15.251944,
     "lng": 104.835278,
     "streamUrl": "/api/stream/cam0016.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "offline"
   },
   {
     "id": "cam0017",
@@ -217,7 +288,8 @@
     "lat": 15.253889,
     "lng": 104.830278,
     "streamUrl": "/api/stream/cam0017.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "offline"
   },
   {
     "id": "cam0018",
@@ -229,7 +301,8 @@
     "lat": 15.251944,
     "lng": 104.829167,
     "streamUrl": "/api/stream/cam0018.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "offline"
   },
   {
     "id": "cam0019",
@@ -241,7 +314,8 @@
     "lat": 15.248889,
     "lng": 104.827222,
     "streamUrl": "/api/stream/cam0019.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0020",
@@ -253,7 +327,8 @@
     "lat": 15.246111,
     "lng": 104.831667,
     "streamUrl": "/api/stream/cam0020.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0021",
@@ -266,7 +341,8 @@
     "lat": 15.250278,
     "lng": 104.840556,
     "streamUrl": "/api/stream/cam0021.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0022",
@@ -278,7 +354,8 @@
     "lat": 15.252778,
     "lng": 104.8375,
     "streamUrl": "/api/stream/cam0022.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0023",
@@ -290,7 +367,8 @@
     "lat": 15.255,
     "lng": 104.834722,
     "streamUrl": "/api/stream/cam0023.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0024",
@@ -302,7 +380,8 @@
     "lat": 15.256667,
     "lng": 104.832222,
     "streamUrl": "/api/stream/cam0024.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "offline"
   },
   {
     "id": "cam0025",
@@ -314,7 +393,8 @@
     "lat": 15.261389,
     "lng": 104.833333,
     "streamUrl": "/api/stream/cam0025.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0026",
@@ -326,7 +406,8 @@
     "lat": 15.263889,
     "lng": 104.840556,
     "streamUrl": "/api/stream/cam0026.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0027",
@@ -338,7 +419,8 @@
     "lat": 15.265556,
     "lng": 104.844167,
     "streamUrl": "/api/stream/cam0027.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0028",
@@ -350,7 +432,8 @@
     "lat": 15.271111,
     "lng": 104.842222,
     "streamUrl": "/api/stream/cam0028.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "offline"
   },
   {
     "id": "cam0029",
@@ -362,7 +445,8 @@
     "lat": 15.266667,
     "lng": 104.843889,
     "streamUrl": "/api/stream/cam0029.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0030",
@@ -374,7 +458,8 @@
     "lat": 15.262222,
     "lng": 104.845556,
     "streamUrl": "/api/stream/cam0030.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0031",
@@ -386,7 +471,8 @@
     "lat": 15.26,
     "lng": 104.846389,
     "streamUrl": "/api/stream/cam0031.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0032",
@@ -398,7 +484,8 @@
     "lat": 15.2575,
     "lng": 104.847222,
     "streamUrl": "/api/stream/cam0032.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0033",
@@ -410,7 +497,8 @@
     "lat": 15.251667,
     "lng": 104.849167,
     "streamUrl": "/api/stream/cam0033.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0034",
@@ -422,7 +510,8 @@
     "lat": 15.248889,
     "lng": 104.85,
     "streamUrl": "/api/stream/cam0034.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0035",
@@ -434,7 +523,8 @@
     "lat": 15.246389,
     "lng": 104.850833,
     "streamUrl": "/api/stream/cam0035.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0036",
@@ -446,7 +536,8 @@
     "lat": 15.24,
     "lng": 104.853056,
     "streamUrl": "/api/stream/cam0036.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0037",
@@ -458,7 +549,8 @@
     "lat": 15.237806,
     "lng": 104.853972,
     "streamUrl": "/api/stream/cam0037.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0038",
@@ -470,7 +562,8 @@
     "lat": 15.2375,
     "lng": 104.8575,
     "streamUrl": "/api/stream/cam0038.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0039",
@@ -482,7 +575,8 @@
     "lat": 15.2375,
     "lng": 104.860556,
     "streamUrl": "/api/stream/cam0039.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0040",
@@ -494,7 +588,8 @@
     "lat": 15.239167,
     "lng": 104.8625,
     "streamUrl": "/api/stream/cam0040.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0041",
@@ -506,7 +601,8 @@
     "lat": 15.244722,
     "lng": 104.866667,
     "streamUrl": "/api/stream/cam0041.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0042",
@@ -518,7 +614,8 @@
     "lat": 15.239444,
     "lng": 104.864167,
     "streamUrl": "/api/stream/cam0042.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0043",
@@ -530,7 +627,8 @@
     "lat": 15.239306,
     "lng": 104.8665,
     "streamUrl": "/api/stream/cam0043.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0044",
@@ -542,7 +640,8 @@
     "lat": 15.239167,
     "lng": 104.868889,
     "streamUrl": "/api/stream/cam0044.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0045",
@@ -554,7 +653,8 @@
     "lat": 15.248611,
     "lng": 104.879444,
     "streamUrl": "/api/stream/cam0045.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0046",
@@ -566,7 +666,8 @@
     "lat": 15.245833,
     "lng": 104.8775,
     "streamUrl": "/api/stream/cam0046.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0047",
@@ -578,7 +679,8 @@
     "lat": 15.243056,
     "lng": 104.876944,
     "streamUrl": "/api/stream/cam0047.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0048",
@@ -590,7 +692,8 @@
     "lat": 15.240833,
     "lng": 104.877778,
     "streamUrl": "/api/stream/cam0048.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "offline"
   },
   {
     "id": "cam0049",
@@ -603,7 +706,8 @@
     "lat": 15.237389,
     "lng": 104.877083,
     "streamUrl": "/api/stream/cam0049.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0050",
@@ -615,7 +719,8 @@
     "lat": 15.236389,
     "lng": 104.873889,
     "streamUrl": "/api/stream/cam0050.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0051",
@@ -627,7 +732,8 @@
     "lat": 15.236111,
     "lng": 104.869722,
     "streamUrl": "/api/stream/cam0051.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0052",
@@ -639,7 +745,8 @@
     "lat": 15.233611,
     "lng": 104.870278,
     "streamUrl": "/api/stream/cam0052.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0053",
@@ -651,7 +758,8 @@
     "lat": 15.231111,
     "lng": 104.870556,
     "streamUrl": "/api/stream/cam0053.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0054",
@@ -663,7 +771,8 @@
     "lat": 15.228889,
     "lng": 104.871111,
     "streamUrl": "/api/stream/cam0054.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0055",
@@ -675,7 +784,8 @@
     "lat": 15.2275,
     "lng": 104.868056,
     "streamUrl": "/api/stream/cam0055.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0056",
@@ -687,7 +797,8 @@
     "lat": 15.228889,
     "lng": 104.867778,
     "streamUrl": "/api/stream/cam0056.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0057",
@@ -699,7 +810,8 @@
     "lat": 15.235833,
     "lng": 104.866667,
     "streamUrl": "/api/stream/cam0057.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0058",
@@ -711,7 +823,8 @@
     "lat": 15.235556,
     "lng": 104.864444,
     "streamUrl": "/api/stream/cam0058.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0059",
@@ -723,7 +836,8 @@
     "lat": 15.232778,
     "lng": 104.860278,
     "streamUrl": "/api/stream/cam0059.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0060",
@@ -735,7 +849,8 @@
     "lat": 15.233056,
     "lng": 104.858056,
     "streamUrl": "/api/stream/cam0060.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0061",
@@ -747,7 +862,8 @@
     "lat": 15.235556,
     "lng": 104.857222,
     "streamUrl": "/api/stream/cam0061.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0062",
@@ -759,7 +875,8 @@
     "lat": 15.235556,
     "lng": 104.860278,
     "streamUrl": "/api/stream/cam0062.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0063",
@@ -771,7 +888,8 @@
     "lat": 15.235556,
     "lng": 104.854167,
     "streamUrl": "/api/stream/cam0063.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0064",
@@ -783,7 +901,8 @@
     "lat": 15.235833,
     "lng": 104.851667,
     "streamUrl": "/api/stream/cam0064.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "offline"
   },
   {
     "id": "cam0065",
@@ -795,7 +914,8 @@
     "lat": 15.233889,
     "lng": 104.851667,
     "streamUrl": "/api/stream/cam0065.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0066",
@@ -807,7 +927,8 @@
     "lat": 15.233611,
     "lng": 104.854167,
     "streamUrl": "/api/stream/cam0066.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "offline"
   },
   {
     "id": "cam0067",
@@ -819,7 +940,8 @@
     "lat": 15.231389,
     "lng": 104.855278,
     "streamUrl": "/api/stream/cam0067.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0068",
@@ -831,7 +953,8 @@
     "lat": 15.231667,
     "lng": 104.851667,
     "streamUrl": "/api/stream/cam0068.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0069",
@@ -843,7 +966,8 @@
     "lat": 15.228611,
     "lng": 104.856111,
     "streamUrl": "/api/stream/cam0069.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "offline"
   },
   {
     "id": "cam0070",
@@ -855,7 +979,8 @@
     "lat": 15.228611,
     "lng": 104.856111,
     "streamUrl": "/api/stream/cam0070.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0071",
@@ -867,7 +992,8 @@
     "lat": 15.231111,
     "lng": 104.86,
     "streamUrl": "/api/stream/cam0071.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0072",
@@ -879,7 +1005,8 @@
     "lat": 15.230556,
     "lng": 104.861944,
     "streamUrl": "/api/stream/cam0072.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0073",
@@ -891,7 +1018,8 @@
     "lat": 15.230556,
     "lng": 104.864722,
     "streamUrl": "/api/stream/cam0073.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0074",
@@ -903,7 +1031,8 @@
     "lat": 15.228611,
     "lng": 104.865,
     "streamUrl": "/api/stream/cam0074.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0075",
@@ -915,7 +1044,8 @@
     "lat": 15.227778,
     "lng": 104.865278,
     "streamUrl": "/api/stream/cam0075.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0076",
@@ -927,7 +1057,8 @@
     "lat": 15.228611,
     "lng": 104.861389,
     "streamUrl": "/api/stream/cam0076.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0077",
@@ -939,7 +1070,8 @@
     "lat": 15.227222,
     "lng": 104.858889,
     "streamUrl": "/api/stream/cam0077.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "offline"
   },
   {
     "id": "cam0078",
@@ -951,7 +1083,8 @@
     "lat": 15.225833,
     "lng": 104.858889,
     "streamUrl": "/api/stream/cam0078.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0079",
@@ -963,7 +1096,8 @@
     "lat": 15.225833,
     "lng": 104.859722,
     "streamUrl": "/api/stream/cam0079.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0080",
@@ -975,7 +1109,8 @@
     "lat": 15.225278,
     "lng": 104.860278,
     "streamUrl": "/api/stream/cam0080.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0081",
@@ -987,7 +1122,8 @@
     "lat": 15.225,
     "lng": 104.859167,
     "streamUrl": "/api/stream/cam0081.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0082",
@@ -999,7 +1135,8 @@
     "lat": 15.224444,
     "lng": 104.856667,
     "streamUrl": "/api/stream/cam0082.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0083",
@@ -1011,7 +1148,8 @@
     "lat": 15.225278,
     "lng": 104.855556,
     "streamUrl": "/api/stream/cam0083.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0084",
@@ -1023,7 +1161,8 @@
     "lat": 15.226667,
     "lng": 104.855556,
     "streamUrl": "/api/stream/cam0084.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0085",
@@ -1035,7 +1174,8 @@
     "lat": 15.226944,
     "lng": 104.856667,
     "streamUrl": "/api/stream/cam0085.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0086",
@@ -1047,7 +1187,8 @@
     "lat": 15.224722,
     "lng": 104.859167,
     "streamUrl": "/api/stream/cam0086.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0087",
@@ -1060,7 +1201,8 @@
     "lat": 15.223333,
     "lng": 104.8575,
     "streamUrl": "/api/stream/cam0087.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0088",
@@ -1073,7 +1215,8 @@
     "lat": 15.223611,
     "lng": 104.859167,
     "streamUrl": "/api/stream/cam0088.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0089",
@@ -1086,7 +1229,8 @@
     "lat": 15.223611,
     "lng": 104.860556,
     "streamUrl": "/api/stream/cam0089.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0090",
@@ -1099,7 +1243,8 @@
     "lat": 15.224167,
     "lng": 104.8625,
     "streamUrl": "/api/stream/cam0090.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0091",
@@ -1111,7 +1256,8 @@
     "lat": 15.224167,
     "lng": 104.8625,
     "streamUrl": "/api/stream/cam0091.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0092",
@@ -1123,7 +1269,8 @@
     "lat": 15.224722,
     "lng": 104.865556,
     "streamUrl": "/api/stream/cam0092.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "offline"
   },
   {
     "id": "cam0093",
@@ -1135,7 +1282,8 @@
     "lat": 15.233333,
     "lng": 104.866944,
     "streamUrl": "/api/stream/cam0093.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0094",
@@ -1147,7 +1295,8 @@
     "lat": 15.233056,
     "lng": 104.864722,
     "streamUrl": "/api/stream/cam0094.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0095",
@@ -1159,7 +1308,8 @@
     "lat": 15.237222,
     "lng": 104.866389,
     "streamUrl": "/api/stream/cam0095.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0096",
@@ -1171,7 +1321,8 @@
     "lat": 15.238889,
     "lng": 104.872222,
     "streamUrl": "/api/stream/cam0096.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0097",
@@ -1183,7 +1334,8 @@
     "lat": 15.238611,
     "lng": 104.874167,
     "streamUrl": "/api/stream/cam0097.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0098",
@@ -1195,7 +1347,8 @@
     "lat": 15.248611,
     "lng": 104.876667,
     "streamUrl": "/api/stream/cam0098.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "offline"
   },
   {
     "id": "cam0099",
@@ -1207,7 +1360,8 @@
     "lat": 15.239444,
     "lng": 104.857778,
     "streamUrl": "/api/stream/cam0099.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0100",
@@ -1219,7 +1373,8 @@
     "lat": 15.236111,
     "lng": 104.836111,
     "streamUrl": "/api/stream/cam0100.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0101",
@@ -1231,7 +1386,8 @@
     "lat": 15.236389,
     "lng": 104.836111,
     "streamUrl": "/api/stream/cam0101.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0102",
@@ -1243,7 +1399,8 @@
     "lat": 15.242778,
     "lng": 104.834722,
     "streamUrl": "/api/stream/cam0102.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0103",
@@ -1255,7 +1412,8 @@
     "lat": 15.244722,
     "lng": 104.833611,
     "streamUrl": "/api/stream/cam0103.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0104",
@@ -1267,7 +1425,8 @@
     "lat": 15.244167,
     "lng": 104.833889,
     "streamUrl": "/api/stream/cam0104.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0105",
@@ -1279,7 +1438,8 @@
     "lat": 15.244167,
     "lng": 104.840556,
     "streamUrl": "/api/stream/cam0105.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0106",
@@ -1291,7 +1451,8 @@
     "lat": 15.248056,
     "lng": 104.833333,
     "streamUrl": "/api/stream/cam0106.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0107",
@@ -1303,7 +1464,8 @@
     "lat": 15.249722,
     "lng": 104.831389,
     "streamUrl": "/api/stream/cam0107.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0108",
@@ -1315,7 +1477,8 @@
     "lat": 15.251111,
     "lng": 104.8275,
     "streamUrl": "/api/stream/cam0108.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0109",
@@ -1327,7 +1490,8 @@
     "lat": 15.253889,
     "lng": 104.8525,
     "streamUrl": "/api/stream/cam0109.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0110",
@@ -1339,7 +1503,8 @@
     "lat": 15.239167,
     "lng": 104.861111,
     "streamUrl": "/api/stream/cam0110.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0111",
@@ -1351,7 +1516,8 @@
     "lat": 15.225556,
     "lng": 104.856944,
     "streamUrl": "/api/stream/cam0111.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0112",
@@ -1363,7 +1529,8 @@
     "lat": 15.228611,
     "lng": 104.863333,
     "streamUrl": "/api/stream/cam0112.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "offline"
   },
   {
     "id": "cam0113",
@@ -1375,7 +1542,8 @@
     "lat": 15.230278,
     "lng": 104.855833,
     "streamUrl": "/api/stream/cam0113.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0114",
@@ -1387,7 +1555,8 @@
     "lat": 15.226667,
     "lng": 104.852222,
     "streamUrl": "/api/stream/cam0114.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0115",
@@ -1399,7 +1568,8 @@
     "lat": 15.228611,
     "lng": 104.853333,
     "streamUrl": "/api/stream/cam0115.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0116",
@@ -1411,7 +1581,8 @@
     "lat": 15.234722,
     "lng": 104.846667,
     "streamUrl": "/api/stream/cam0116.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0117",
@@ -1423,7 +1594,8 @@
     "lat": 15.234167,
     "lng": 104.849444,
     "streamUrl": "/api/stream/cam0117.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0118",
@@ -1435,7 +1607,8 @@
     "lat": 15.235556,
     "lng": 104.853333,
     "streamUrl": "/api/stream/cam0118.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0119",
@@ -1447,7 +1620,8 @@
     "lat": 15.237889,
     "lng": 104.849917,
     "streamUrl": "/api/stream/cam0119.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0120",
@@ -1459,7 +1633,8 @@
     "lat": 15.255278,
     "lng": 104.834444,
     "streamUrl": "/api/stream/cam0120.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0121",
@@ -1471,7 +1646,8 @@
     "lat": 15.232778,
     "lng": 104.8625,
     "streamUrl": "/api/stream/cam0121.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0122",
@@ -1483,7 +1659,8 @@
     "lat": 15.241111,
     "lng": 104.873611,
     "streamUrl": "/api/stream/cam0122.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0123",
@@ -1495,7 +1672,8 @@
     "lat": 15.237222,
     "lng": 104.873333,
     "streamUrl": "/api/stream/cam0123.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0124",
@@ -1507,7 +1685,8 @@
     "lat": 15.2375,
     "lng": 104.869444,
     "streamUrl": "/api/stream/cam0124.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0125",
@@ -1519,7 +1698,8 @@
     "lat": 15.238889,
     "lng": 104.871667,
     "streamUrl": "/api/stream/cam0125.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0160",
@@ -1531,7 +1711,8 @@
     "lat": 15.223333,
     "lng": 104.8575,
     "streamUrl": "/api/stream/cam0160.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0161",
@@ -1543,7 +1724,8 @@
     "lat": 15.224167,
     "lng": 104.858611,
     "streamUrl": "/api/stream/cam0161.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0162",
@@ -1555,7 +1737,8 @@
     "lat": 15.224167,
     "lng": 104.858611,
     "streamUrl": "/api/stream/cam0162.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "offline"
   },
   {
     "id": "cam0163",
@@ -1568,7 +1751,8 @@
     "lat": 15.224167,
     "lng": 104.858333,
     "streamUrl": "/api/stream/cam0163.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0164",
@@ -1580,7 +1764,8 @@
     "lat": 15.233611,
     "lng": 104.855278,
     "streamUrl": "/api/stream/cam0164.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0165",
@@ -1592,7 +1777,8 @@
     "lat": 15.233889,
     "lng": 104.855278,
     "streamUrl": "/api/stream/cam0165.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0166",
@@ -1604,7 +1790,8 @@
     "lat": 15.234167,
     "lng": 104.855278,
     "streamUrl": "/api/stream/cam0166.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0167",
@@ -1616,7 +1803,8 @@
     "lat": 15.235,
     "lng": 104.869167,
     "streamUrl": "/api/stream/cam0167.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0168",
@@ -1628,7 +1816,8 @@
     "lat": 15.235278,
     "lng": 104.869167,
     "streamUrl": "/api/stream/cam0168.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0169",
@@ -1640,7 +1829,8 @@
     "lat": 15.235278,
     "lng": 104.868333,
     "streamUrl": "/api/stream/cam0169.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0170",
@@ -1652,7 +1842,8 @@
     "lat": 15.234722,
     "lng": 104.868333,
     "streamUrl": "/api/stream/cam0170.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0171",
@@ -1664,7 +1855,8 @@
     "lat": 15.242778,
     "lng": 104.851944,
     "streamUrl": "/api/stream/cam0171.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0172",
@@ -1676,7 +1868,8 @@
     "lat": 15.2425,
     "lng": 104.851667,
     "streamUrl": "/api/stream/cam0172.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0173",
@@ -1688,7 +1881,8 @@
     "lat": 15.2425,
     "lng": 104.850833,
     "streamUrl": "/api/stream/cam0173.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0174",
@@ -1700,7 +1894,8 @@
     "lat": 15.242222,
     "lng": 104.851111,
     "streamUrl": "/api/stream/cam0174.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0175",
@@ -1712,7 +1907,8 @@
     "lat": 15.260833,
     "lng": 104.851944,
     "streamUrl": "/api/stream/cam0175.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0176",
@@ -1724,7 +1920,8 @@
     "lat": 15.263611,
     "lng": 104.853333,
     "streamUrl": "/api/stream/cam0176.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "offline"
   },
   {
     "id": "cam0177",
@@ -1736,7 +1933,8 @@
     "lat": 15.263889,
     "lng": 104.852222,
     "streamUrl": "/api/stream/cam0177.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0178",
@@ -1748,7 +1946,8 @@
     "lat": 15.263889,
     "lng": 104.852222,
     "streamUrl": "/api/stream/cam0178.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0179",
@@ -1760,7 +1959,8 @@
     "lat": 15.264444,
     "lng": 104.851389,
     "streamUrl": "/api/stream/cam0179.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "offline"
   },
   {
     "id": "cam0180",
@@ -1772,7 +1972,8 @@
     "lat": 15.263889,
     "lng": 104.840556,
     "streamUrl": "/api/stream/cam0180.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0181",
@@ -1784,7 +1985,8 @@
     "lat": 15.263611,
     "lng": 104.840278,
     "streamUrl": "/api/stream/cam0181.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0182",
@@ -1796,7 +1998,8 @@
     "lat": 15.263611,
     "lng": 104.840278,
     "streamUrl": "/api/stream/cam0182.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0183",
@@ -1808,7 +2011,8 @@
     "lat": 15.266389,
     "lng": 104.837778,
     "streamUrl": "/api/stream/cam0183.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0184",
@@ -1820,7 +2024,8 @@
     "lat": 15.254167,
     "lng": 104.836944,
     "streamUrl": "/api/stream/cam0184.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0185",
@@ -1832,7 +2037,8 @@
     "lat": 15.254167,
     "lng": 104.836944,
     "streamUrl": "/api/stream/cam0185.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0186",
@@ -1844,7 +2050,8 @@
     "lat": 15.237778,
     "lng": 104.851944,
     "streamUrl": "/api/stream/cam0186.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0194",
@@ -1856,7 +2063,8 @@
     "lat": 15.231944,
     "lng": 104.876389,
     "streamUrl": "/api/stream/cam0194.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0195",
@@ -1868,7 +2076,8 @@
     "lat": 15.232778,
     "lng": 104.875278,
     "streamUrl": "/api/stream/cam0195.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0200",
@@ -1880,7 +2089,8 @@
     "lat": 15.233889,
     "lng": 104.875556,
     "streamUrl": "/api/stream/cam0200.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0201",
@@ -1892,7 +2102,8 @@
     "lat": 15.233889,
     "lng": 104.875556,
     "streamUrl": "/api/stream/cam0201.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0202",
@@ -1904,7 +2115,8 @@
     "lat": 15.233889,
     "lng": 104.874722,
     "streamUrl": "/api/stream/cam0202.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   },
   {
     "id": "cam0210",
@@ -1916,6 +2128,7 @@
     "lat": 15.229444,
     "lng": 104.861667,
     "streamUrl": "/api/stream/cam0210.stream/playlist.m3u8",
-    "source": "เทศบาลนครอุบลราชธานี"
+    "source": "เทศบาลนครอุบลราชธานี",
+    "status": "online"
   }
 ]

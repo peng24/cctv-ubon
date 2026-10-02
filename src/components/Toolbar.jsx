@@ -1,8 +1,9 @@
 import React from 'react';
-import { Search, X, Layers, Droplets, TrafficCone, Store, Building2, Star } from 'lucide-react';
+import { Search, X, Layers, Droplets, TrafficCone, Store, Building2, Star, Wifi } from 'lucide-react';
 
 const CATEGORIES = [
   { id: 'all', label: 'ทั้งหมด', icon: Layers },
+  { id: 'online', label: 'เฉพาะออนไลน์', icon: Wifi, color: 'text-emerald-400' },
   { id: 'water', label: 'ริมแม่น้ำมูล / เฝ้าระวังน้ำท่วม', icon: Droplets, color: 'text-cyan-400' },
   { id: 'traffic', label: 'สี่แยก / ถนนสายหลัก', icon: TrafficCone, color: 'text-amber-400' },
   { id: 'community', label: 'ชุมชน / ตลาด / สวน', icon: Store, color: 'text-emerald-400' },
